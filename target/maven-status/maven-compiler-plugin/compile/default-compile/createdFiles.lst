@@ -1,0 +1,4 @@
+com\example\codefun\ISBNValidator\service\ISBN13CharacterValidation.class
+com\example\codefun\ISBNValidator\controller\ISBNController.class
+com\example\codefun\ISBNValidator\service\ISBN10CharacterValidation.class
+com\example\codefun\ISBNValidator\service\ISBNService.class

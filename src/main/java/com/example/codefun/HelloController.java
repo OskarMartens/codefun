@@ -14,9 +14,4 @@ public class HelloController {
     public ResponseEntity<String> helloWorld(){
         return new ResponseEntity<>("Hello World", HttpStatus.OK);
     }
-
-    @GetMapping("morning")
-    public ResponseEntity<String> goodMorning(){
-        return new ResponseEntity<>("Good Morning World", HttpStatus.OK);
-    }
 }

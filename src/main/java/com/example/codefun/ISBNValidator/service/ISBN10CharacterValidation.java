@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ISBN10CharacterValidation {
-    public ResponseEntity<String> validate10CharactersISBN(String ISBNString){
+    static ResponseEntity<String> validate10CharactersISBN(String ISBNString){
 
         if(ISBNString.matches("[0-9]+") && ISBNString.length() == 10 ) {
             return validate10DigitsISBNWithoutX(ISBNString);
